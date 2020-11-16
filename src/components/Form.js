@@ -32,7 +32,7 @@ class Form extends Component {
         if (res.error) {
           alert(res.error);
         } else {
-          alert(`The movie ${title} has been successfully added!`);
+          alert(`The movie has been successfully added!`);
         }
       })
       .catch((e) => {
